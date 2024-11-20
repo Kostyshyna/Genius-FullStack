@@ -4,18 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Сучасна пекарня</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="">
+        <a href="./index.html">
           <img src="./Genius.images/logo.svg" alt="Логотип сучасної пекарні" />
         </a>
         <ul>
-          <li><a href="#">Наші традиції</a></li>
-          <li><a href="#">Шеф-кухарі</a></li>
-          <li><a href="#">Формати</a></li>
-          <li><a href="#">Контаки</a></li>
+          <li><a href="#tradition-section">Наші традиції</a></li>
+          <li><a href="#backers-section">Шеф-кухарі</a></li>
+          <li><a href="#format-section">Формати</a></li>
+          <li><a href="#kontakts-section">Контакти</a></li>
         </ul>
       </nav>
       <button type="button">Замовити дзвінок</button>
@@ -24,13 +25,13 @@
       <section>
         <h1>Сучасна пекарня</h1>
       </section>
-      <section>
+      <section id="tradition-section">
         <ul>
           <li>Великий попит на ринку</li>
           <li>Доступні за бюджетом формати</li>
           <li>Досвідчена управлінська команда</li>
         </ul>
-        <h1>Новий формат традицій</h1>
+        <h2>Новий формат традицій</h2>
         <p>
           <span>shop bakery</span> — це пекарня, яка взяла все найкраще, і
           зберегла смак традиційної випічки та натуральність інгредієнтів.
@@ -40,9 +41,14 @@
           <span>5 хвилин і замовлення готове</span>. А ще у наших пекарень
           стильний дизайн та висока якість обслуговування!
         </p>
+        <img
+          src="./Genius.images/bascker-with-bread.jpg"
+          alt="Пекар, який дивиться на булочки"
+        />
       </section>
-      <section>
-        <h1>Наші найкращі шуф-кухарі</h1>
+      <section id="backers-section">
+        <h2>Наші найкращі шуф-кухарі</h2>
+        <img src="./Genius.images/backer Nastya.jpg" alt="Пекар Настя" />
         <ul>
           <li>
             <article>
@@ -53,6 +59,7 @@
             </article>
           </li>
         </ul>
+        <img src="./Genius.images/backer Vlad.jpg" alt="Пекар Влад" />
         <ul>
           <li>
             <article>
@@ -67,8 +74,8 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h1>Формати</h1>
+      <section id="format-section">
+        <h2>Формати</h2>
         <ul>
           <li>
             <article>
@@ -91,8 +98,16 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h1>Приєднуйся до мережі пекарень</h1>
+      <section id="kontakts-section">
+        <h2>Приєднуйся до мережі пекарень</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20315.54604119047!2d30.461062734765598!3d50.470091352209835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637c006b2d%3A0xaf86385f19996ff0!2z0YPQuy4g0KHQtdGH0LXQstGL0YUg0KHRgtGA0LXQu9GM0YbQvtCyLCA1NCwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1732106313281!5m2!1sru!2sua"
+          width="603"
+          height="595"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </section>
     </main>
     <footer>
@@ -101,10 +116,10 @@
           <img src="./Genius.images/logo.svg" alt="Логотип сучасної пекарні" />
         </a>
         <ul>
-          <li><a href="#">Наші традиції</a></li>
-          <li><a href="#">Шеф-кухарі</a></li>
-          <li><a href="#">Формати</a></li>
-          <li><a href="#">Контаки</a></li>
+          <li><a href="#tradition-section">Наші традиції</a></li>
+          <li><a href="#backers-section">Шеф-кухарі</a></li>
+          <li><a href="#format-section">Формати</a></li>
+          <li><a href="#kontakts-section">Контакти</a></li>
         </ul>
         <address>
           <ul>
@@ -133,7 +148,7 @@
             </li>
           </ul>
           <a href="#" target="_blank">Політика конфіденційності</a>
-          <p>© 2022 Дані захищені</p>
+          <p>&copy; 2022 Дані захищені</p>
         </address>
       </nav>
     </footer>
